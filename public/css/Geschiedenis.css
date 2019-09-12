@@ -1,0 +1,13 @@
+#geschiedenis{
+  background-color: #006666;
+}
+
+h2, p {
+  text-align: center;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

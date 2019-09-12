@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+}
+
+#header {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#logo {
+  width: auto;
+  height: 90px;
+  padding: 5px;
+}
+
+nav {
+  background-color: black;
+  width: 15%;
+  position: absolute;
+  right: 0%;
+  top: -70%;
+  transition: top 0.5s;
+  z-index: 1;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li{
+  padding: 3px;
+  margin: 8px;
+  border-radius: 15px;
+  background-color: green;
+}
+
+nav li:hover{
+  background-color: #00ffff;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#header h1{
+  text-align: center;
+  cursor: pointer;
+}
+
+#header img{
+  text-align: left;
+  cursor: pointer;
+}
+
+#labelMenuButton::before{
+  content: "\2630";
+  cursor: pointer;
+}
+
+#labelMenuButton2::before{
+  content: "\2716";
+  cursor: pointer;
+}
+
+#menuButton{
+  display: none;
+}
+
+#menuButton:checked ~ #labelMenuButton::before {
+  visibility: hidden;
+}
+
+#menuButton:checked ~ nav {
+  top: -2.5%;
+}
+
+#labelMenuButton2{
+  position: relative;
+  left: 30%;
+  color: red;
+  font-size: 3.5em;
+  font-weight: 900;
+}
+
+#labelMenuButton{
+  text-align: right;
+  font-size: 3.5em;
+  font-weight: 900;
+  margin-right: 15px;
+  margin-top: -3px;
+}

@@ -1,0 +1,63 @@
+h2 {
+  text-align: center;
+}
+
+#forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid form {
+  grid-column: 2/2;
+}
+
+.input{
+  width: 375px;
+  margin: 15px 0;
+}
+
+#accounts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#accounts .table{
+  grid-column: 2/2;
+}
+
+#accounts h3{
+  text-align: center;
+}
+
+#accounts table{
+  border: 2px solid black;
+}
+
+#accounts td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#accounts th{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #00ff00;
+}
+
+.verwijder {
+  color: red;
+  cursor: pointer;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.hover:hover{
+  background-color: #b3ffff;
+}

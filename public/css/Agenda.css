@@ -1,0 +1,56 @@
+#agenda{
+  background-color: #006666;
+}
+
+table, th {
+  border: 1px solid black;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th {
+  height: 80px;
+  width: 80px;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.today {
+  background-color: #6666ff;
+  border: 2px solid #0000e6;
+}
+
+.nummers {
+  vertical-align: top;
+  font-size: 10px;
+}
+
+.number {
+  float: left;
+}
+
+h2, .date {
+  text-align: center;
+}
+
+.bericht {
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: #33ffff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.bericht:hover {
+  background-color: #009999;
+}
+
+.button {
+  position: relative;
+  left: 42%;
+  margin: 5px;
+}

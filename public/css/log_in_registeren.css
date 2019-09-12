@@ -1,0 +1,13 @@
+#log_in{
+  background-color: #006666;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.false {
+  color: red;
+}
